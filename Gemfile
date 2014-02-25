@@ -5,7 +5,7 @@ gem 'rails', '3.2.11'
 gem 'rubycas-client'#, '~> 2.2.1'
 
 gem 'bson_ext'
-gem "mongoid", "~> 2.4"
+gem "mongoid", "~> 2.4.12"
 
 gem 'text'
 
@@ -25,13 +25,13 @@ gem 'pry'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-   gem 'webrat'
-   gem 'shoulda'
-   gem 'factory_girl_rails'
-   gem 'mocha'
-   gem 'autotest'
-   gem 'autotest-rails'
-	 gem 'jasmine'
+#   gem 'webrat'
+#   gem 'shoulda'
+#   gem 'factory_girl_rails'
+#   gem 'mocha'
+#   gem 'autotest'
+#   gem 'autotest-rails'
+#	 gem 'jasmine'
 	
 end
 
